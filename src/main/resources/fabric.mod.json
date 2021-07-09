@@ -1,28 +1,27 @@
 {
   "schemaVersion": 1,
-  "id": "addon-template",
+  "id": "invdupe",
   "version": "${version}",
-  "name": "Addon Template",
-  "description": "An addon template for the Meteor Addon API.",
+  "name": "Inventory Dupe",
+  "description": "Adds the magic button that makes the inventory dupe possible",
   "authors": [
-    "seasnail8169"
+    "timoreo"
   ],
+  "license": "CC0-1.0",
   "contact": {
-    "repo": "https://github.com/MeteorDevelopment/meteor-addon-template"
+    "repo": "https://github.com/timoreo22/inventory-dupe"
   },
-  "icon": "assets/template/icon.png",
   "environment": "client",
   "entrypoints": {
-    "meteor": [
-      "meteordevelopment.addons.template.TemplateAddon"
+    "client": [
+      "fr.timoreo.invdupe.InvDupe"
     ]
   },
   "mixins": [
-    "template.mixins.json"
+    "invdupe.mixins.json"
   ],
   "depends": {
     "java": ">=16",
-    "minecraft": ">=1.17",
-    "meteor-client": ">0.4.3"
+    "minecraft": ">=1.17"
   }
 }

@@ -22,8 +22,6 @@ dependencies {
     mappings "net.fabricmc:yarn:${project.yarn_version}:v2"
     modImplementation "net.fabricmc:fabric-loader:${project.loader_version}"
 
-    // Meteor
-    modImplementation "com.github.MeteorDevelopment:meteor-client:master-SNAPSHOT"
 }
 
 processResources {

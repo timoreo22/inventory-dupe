@@ -1,8 +1,5 @@
-# Meteor Addon Template
+# Inventory dupe
 
-A template to allow easy usage of the Meteor Addon API.
+Adds the magic button that makes the inventory dupe possible
 
-### How to use:  
-- Clone this project
-- Use this template to create new modules/commands
-- Run the mod with Meteor.
+This is licensed under CC0-1.0 meaning that you can do whatever you want with the code
